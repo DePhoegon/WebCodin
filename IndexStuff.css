@@ -1,0 +1,46 @@
+body {
+    background-color: green;
+    align-content: center;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.portal {
+    width: 1280px;
+}
+.jump {
+    height: 720px;
+}
+#Play {
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 940px;
+    height: 600px;
+}
+#Stat {
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    left: 960px;
+    width: 310px;
+    height: 600px;
+}
+#Hist{
+    background-color: white;
+    position: absolute;
+    top: 620px;
+    left: 10px;
+    width: 1260px;
+    height: 100px;
+}
+.Tile {
+    position: inherit;
+    width: 10%;
+    height: 10%;
+    background: linear-gradient(180deg, #122536, rgba(22, 57, 85, 1));
+}
+.Derp {
+    color: blue;
+}
