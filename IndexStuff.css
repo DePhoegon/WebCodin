@@ -12,7 +12,6 @@ body {
     height: 720px;
 }
 #Play {
-    background-color: white;
     position: absolute;
     top: 10px;
     left: 10px;
@@ -39,7 +38,11 @@ body {
     position: inherit;
     width: 10%;
     height: 10%;
-    background: linear-gradient(180deg, #122536, rgba(22, 57, 85, 1));
+/*    background: linear-gradient(180deg, #122536, rgba(22, 57, 85, 1));  */
+}
+.hold {
+    width: 100%;
+    height: 100%;
 }
 .Derp {
     color: blue;
