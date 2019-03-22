@@ -3,38 +3,39 @@ var images = ["images/1234702096.kerns_seaofblood.jpg", "images/1270599430.kerns
 
 /* Test array, Smaller count of characters validating range easier
  var alphaTest = ["a", "b", "c"] */
-/* -Testing Range of Math.floor(math.random*array.length)  for random selection
-function SeedT() {
+/* function SeedT() {
     if (document.getElementById("Toggle").innerHTML == "Letter - a") { document.getElementById("Toggle").innerHTML = "Random" };
     var rnp = Math.floor(Math.random() * alphaTest.length);
     document.getElementById("Rando").innerHTML = alpha[rnp];
     document.getElementById("RandoN").innerHTML = rnp;
     if (rnp == 0 ) {document.getElementById("Toggle").innerHTML = "Letter - " + alpha[rnp];};
-}  */
-function bcktst() {
- /*   var Tile = document.getElementsByClassName("Tile"); */
- /*   var i;
+} Testing Range of Math.floor(math.random*array.length)  for random selection  */
+function color() {
+    var Tile = document.getElementsByClassName("Tile");
+    var i;
     for (i = 0; i < Tile.length; i++) {
         var n1 = rng(Tile.length);
         var n2 = rng(Tile.length);
-        var n3 = rng(Math.floor(Tile.length / 2));
+        var n3 = rng(Tile.length));
         Tile[i].style.backgroundColor = 'rgb(' + n1 + ',' + n2 + ',' + n3 + ')';
-    }*/
+    }
+} /* Getting an background color via - rgb, using rng function */
+function bcktst() {
     var hold = document.getElementsByClassName("hold");
     var t;
     for (t = 0; t < hold.length; t++) {
         hold[t].src = img();
     } 
-}
+} /* assigning random images, of all images in a class of an image tag */
 function rng(LN) {
     var D = Math.floor((Math.random() * LN));
     var E = Math.floor((Math.random() * LN));
     var F = Math.floor((Math.random() * (LN/2)));
     var Z = D + E + F;
     return Z;
-}
+} /* Generate RNG of upto 2.5 times the length of the area. designed for a 100 item array 0-250 value for doing random colors */
 function img() {
     var D = Math.floor((Math.random() * images.length));
     var R = images[D]
     return R;
-}
+} /* getting a random image from an array - Testing setup for image mapping. */
