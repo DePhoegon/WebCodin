@@ -1,0 +1,22 @@
+Naming schemes
+-Base62
+-AREA ZZZZ AAAA 9 9 [Maparea / MapX in Base62 / MapY in Base62 / PlaysreaX 9 / PlayareaY 9]
+-- No spaces in name
+
+Concept on use of JavaScript Arrays for 'database'
+Consolidate arrays into one javascript file [ Possible for order ]
+use of perhaps 2 or 4 javascripts to keep track of passible directions 
+use of a singular array for transfer points on the maps 
+--user of another array for warp point 
+
+Use of add/remove images on the sprite later to avoid complications.
+Using z-index on class level for all but sprites
+use of limted ID on sprites/special objects & z-index as well. 
+---------
+
+toy with messing with adding/remove larger divs with a higher z-index for unique things.  [Not sure of it currently.]
+
+tile sizes looking to cap at a max of 100x100
+---
+
+work on data saving scheme for browser close/reload.  

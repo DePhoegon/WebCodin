@@ -7,7 +7,7 @@ function base(Numb) {
         Nu = Math.floor(Nu / Base.length);
     } /* while loop for numbers greater than the base */
     if (Nu == Base.length) {
-        Out = Base[(Nu - (Base.length)] + Out;
+        Out = Base[(Nu - (Base.length))] + Out;
         Out = Base[(Nu - (Base.length - 1))] + Out;
     } /* Condition of the number matching the Base count */
     if (Nu == 0) { return } /* Condition of the number being Zero */

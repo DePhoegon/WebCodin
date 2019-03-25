@@ -1,5 +1,4 @@
 body {
-    background-color: green;
     align-content: center;
     margin: 0px;
     border: 0px;
@@ -10,6 +9,7 @@ body {
 } /* Size control for the body & 'background' - Temp One size for now. */
 .jump {
     height: 720px;
+    z-index: -1;
 } /* Control for the 'background' to the overall play areas, height wise */
 #Play {
     position: absolute;
@@ -43,5 +43,17 @@ body {
 .hold {
     width: 100%;
     height: 100%;
+    z-index: 1;
 } /* Img tags for the play area */
+.area {
+    z-index: 0;
+}
+.Spri {
+    z-index: 2;
+}
+.SpriH {
+    position: inherit;
+    width: 10%;
+    height: 10%;
+}
 
